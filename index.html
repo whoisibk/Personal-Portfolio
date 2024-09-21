@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/68c78e3a7d.js" crossorigin="anonymous"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
+
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="logo" class="logo">
+
+                    <ul id="sidemenu">
+                        <li> <a href="#header">Home</a></li>
+                        <li><a href="#about"> About</a>  </li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#compsci">Journey</a></li>  
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="header-text">
+                    <p>FUTURE DEVELOPER</p>
+                    <h1>Hi, I'm Oyetimehin
+                        <span><br>
+                            Ibukunoluwa
+                        </span>From Nigeria
+                        <img src="images/ngr.png" class="ngr" alt="nigeria logo"></h1>
+                </div>
+
+            </div>
+        </div>
+
+        <!---------------------about------------------>
+
+        <div id="sxn">
+        
+            <div id="about">
+                <table class="row">
+                    <th>
+
+                        <td>
+                            <img src="images/styz.jpg" class="pspt">
+
+                        </td>
+                        <td>
+                            <h1 class="aboutt">About<span class="abt"> Me</span></h1>
+                        </td>
+
+                    </th>
+
+                    <tr>
+                        <td class="talk">
+                            Hi, I'm Ibukunoluwa Oyetimehin, an aspiring Computer Science student driven
+                            <br>by a passion for how technology solves real-world problems. I'm exploring web
+                            <br>
+                            development, building my skills in HTML and CSS, and I enjoy tackling
+                            challenges,
+                            <br>
+                            from coding projects to SAT prep. Every step I take brings me closer to my goals
+                            <br>in tech. Outside of coding, I love spending time with family, helping
+                                others, and
+                            <br>staying motivated to achieve my ambitions.
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('goals')">Goals</p>
+                                <p class="tab-links" onclick="opentab('leadership')">Leadership</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li>
+                                        <span>HTML</span><br>Basic Structure</li>
+                                    <li>
+                                        <span>CSS</span><br>Fundamentals</li>
+                                    <li>
+                                        <span>JavaScript</span><br>Introductory</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="leadership">
+                                <ul>
+                                    <li>
+                                        <span>2017-2018</span><br>Head Boy in Elementary School
+                                    </li>
+                                    <li>
+                                        <span>2020-2022</span><br>Class President</li>
+                                    <li>
+                                        <span>2023-2024</span><br>Head Boy in High School</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="goals">
+                                <ul>
+                                    <li>
+                                        <span>Short-Term</span><br>Study At A U.S. University</li>
+                                    <li>
+                                        <span>Long-Term</span><br>Earn A CompSci Degree</li>
+                                    <li>
+                                        <span>Career</span><br>Work At A TopTech Company</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </tr>
+
+                </table>
+
+            </div>
+            <div class="about-col-2"></div>
+
+        </div>
+    </div>
+</div>
+
+<!---------------------------------------hobbies---------------------------------->
+
+<div id="hobbies">
+
+    <div class="container">
+        <h1 class="sub-titles"><span class="abt">My</span> Hobbies</h1>
+
+        <div class="hobbies-list">
+            <div>
+                <i class="fa-solid fa-futbol"></i>
+                <h2>Sports</h2>
+                <p>Football is my way of expressing myself and unleashing my creativity.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+        <i class="fa-solid fa-calculator"></i>
+
+                <h2>Mathematics</h2>
+                <p>Solving math problems excites me as I 
+                 get to develop my skills and help others.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+
+                <h2>Coding</h2>
+                <p>I believe coding can turn the unimaginable into reality
+                     and expand my horizons.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+       
+    </div>
+
+</div>
+
+<!-----------------------------whyilovecompsci--------------------------->
+<div id="compsci">
+<div class="container">
+    <h1 class="compscy">Why <span class="abt">Computer</span> Science?</h1>
+
+<div class="compsci-list">
+    <div class="comp">
+    <img src="images/stud_code.jpg" alt="defntn of a programmer">
+    <div class="layer">
+        <h3> How it all started</h3>
+        <p> My journey into Computer Science began with a fascination for technology and its endless possibilities.</p>
+        <a href="#"><i class="fa-solid fa-person-running"></i></a>
+    </div>
+</div>
+<div class="comp">
+    <img src="images/image_one.jpg" alt="laptop">
+    <div class="layer">
+        <h3>Building Skills</h3>
+        <p>My passion for problem-solving grows as I learn new programming languages and concepts through online courses.</p>
+        <a href="#"><i class="fa-regular fa-building"></i></a>
+    </div>
+</div>
+<div class="comp">
+    <img src="images/AI.jpg" alt="defntn of a programmer">
+    <div class="layer">
+        <h3>Looking Ahead</h3>
+        <p>I’m excited to use my skills for innovation and impact. 
+        Computer Science offers endless growth opportunities.</p>      
+        <a href="#"><i class="fa-solid fa-forward"></i></i></a>
+    </div>
+</div>
+</div>
+<a href="#" class="btn">See more</a>
+</div>
+
+</div>
+
+
+<!-------------------contact-------------------->
+
+
+<div id="contact">
+<div class="container">
+<div class="row">
+    <div class="contact-left">
+        <h1 class="sub-titles">Contact<span class="abt"> Me</span></h1>
+        <p> <i class="fa-solid fa-envelope"></i>oyetimehinjoseph@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+234 5800 7276</p>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/whosibk/?hl=en">
+            <i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/whoisibk">
+            <i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.tiktok.com/@oyesrevenge">
+            <i class="fa-brands fa-tiktok"></i></a>
+    </div>
+    </div>
+    <div class="contact-right">
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button> 
+      
+        </form>
+        <span id="msg"></span>
+    </div>
+    <div class="copyright">Copyright©IBK Made by Me<i class="fa-solid fa-person"></i></div>
+
+</div>
+
+</div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink
+                .classList
+                .remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+            tabcontent
+                .classList
+                .remove("active-tab");
+        }
+
+        event
+            .currentTarget
+            .classList
+            .add("active-link");
+        document
+            .getElementById(tabname)
+            .classList
+            .add("active-tab");
+    }
+
+</script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0"
+}
+function closemenu(){
+    sidemenu.style.right = "-160px"
+}
+
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXe7-sitk8hzjvSmSC8MEeRjbaVJhONP-Scc990XcDoHpT5uZohWIC0CcG9zS9_uJp/exec'
+    const form = document.forms['submit-to-google-sheet']
+   const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+         setTimeout(function(){
+            msg.innerHTML = ""
+         },4000)
+        form.reset()
+
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+
+</html>
